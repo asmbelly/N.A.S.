@@ -1,0 +1,19 @@
+{
+  "ping_targets": ["1.1.1.1", "8.8.8.8"],
+  "gateway": "192.168.1.1",
+
+  "check_interval_seconds": 5,
+  "samples_per_target": 5,
+
+  "latency_threshold_multiplier": 1.3,
+  "wifi_adapter_name": "Wi-Fi",
+
+  "dns_servers": {
+    "cloudflare": "1.1.1.1",
+    "cloudflare_alt": "1.0.0.1",
+    "google": "8.8.8.8",
+    "google_alt": "8.8.4.4",
+    "quad9": "9.9.9.9",
+    "opendns": "208.67.222.222"
+  }
+}
